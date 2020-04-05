@@ -4,41 +4,47 @@
   <head>
     <meta charset="utf-8">
     <title>strona testowa</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href = "C:\Users\Mikołaj\spr\pdjango\style\style.css" rel = "stylesheet" type="text/css" >
 
+    <style>
+        body {
+          background-color: blueviolet;
+        }
+
+    </style>
   </head>
   <body>
     <h1>Biblioteka</h1>
     <b>Dodawanie nowej książki</b><br>
     <form>
         
-        <label for="name">Tytuł</label>
+        <label class="pogrubienie" for="name">Tytuł</label>
         <input type="text" id="name" name="name">
         <br><br>
 
-        <label for="name">Autor</label>
+        <label class="pogrubienie" for="name">Autor</label>
         <input type="text" id="name" name="name">
         <br><br>
 
-        <label for="name">Data wydania</label>
+        <label class="pogrubienie" for="name">Data wydania</label>
         <input type="date" name="date">
         <br><br>
 
-        <label for="name">Liczba stron</label>
+        <label class="pogrubienie" for="name">Liczba stron</label>
         <input type="number" name="number">
         <br><br>
 
         
-        <label for="name">Kolor okładki</label>
+        <label class="pogrubienie" for="name">Kolor okładki</label>
         <input type="color" name="color">
         <br><br>
 
-        <label for="name">zdjęcie</label>
+        <label class="pogrubienie" for="name">zdjęcie</label>
         <input type="file" name="file">
         <br><br>
         
-        <button type="reset">Resetuj</button>
-        <button type="submit">Wyślij</button>
+        <button class="button1" type="reset">Resetuj</button>
+        <button class="button2" type="submit">Wyślij</button>
     
 
 
